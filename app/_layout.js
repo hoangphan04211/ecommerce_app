@@ -9,6 +9,9 @@ export default function RootLayout() {
         <AuthProvider>
             <CartProvider>
                 <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }}>
+                    <Head>
+                        <title>Ecommerce - HP</title>
+                    </Head>
                     {/* Stack sẽ quản lý tất cả các route con */}
                     <Stack screenOptions={{ headerShown: false }} />
                     <Toast />
