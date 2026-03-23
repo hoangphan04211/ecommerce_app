@@ -10,10 +10,10 @@ export default function RootLayout() {
             <CartProvider>
                 <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }}>
                     {/* Head cho web - nằm trong <head> của HTML */}
-                    <Head>
+                    {/* <Head>
                         <title>Ecommerce - HP</title>
                         <meta name="description" content="Ecommerce App" />
-                    </Head>
+                    </Head> */}
                     {/* Stack quản lý navigation */}
                     <Stack screenOptions={{ headerShown: false }} />
                     <Toast />
